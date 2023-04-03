@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+.Typewriter {
+  display: inline;
+}
+
+.lilita-font {
+  font-family: "Lilita One", cursive;
+}
+
+.alkatra-font {
+  font-family: "Alkatra", cursive;
+}
