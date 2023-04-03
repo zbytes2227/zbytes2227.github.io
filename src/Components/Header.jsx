@@ -4,7 +4,8 @@ import Typewriter from "typewriter-effect";
 function Header() {
     return (
         <>
-            <div class="flex flex-col-reverse justify-around p-1 mx-auto sm:py-12 lg:py-18 lg:flex-row lg:justify-around">
+
+            <div class="flex flex-col-reverse justify-around p-1 mx-auto sm:py-12 lg:py-18 lg:flex-row lg:justify-evenly">
                 <div class="flex flex-col justify-center p-6 text-left lg:text-left">
                     <div class="">
                         <div class="mb-[.7rem] ">
@@ -21,10 +22,10 @@ function Header() {
                             </h1>
                         </div> */}
                         <div class="mb-[3rem]">
-                            <h1 class="text-3xl lilita-font sm:text-4xl text-[#ffff]"> <span class="text-[#a855f7]">& I am </span>
+                            <h1 class="text-3xl lilita-font sm:text-4xl text-[#ffff]"> <span class="text-[#a855f7]">I'm a </span>
                                 <Typewriter
                                     options={{
-                                        strings: ["Web Developer", "Iot Engineer", "Python Learner"],
+                                        strings: ["Web Developer", "Freelancer", ""],
                                         autoStart: true,
                                         loop: true,
                                         cursor: "_"
@@ -35,31 +36,28 @@ function Header() {
                     </div>
                     <div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                         <a
-                            href="#/projects"
+                            href="/#/projects"
                             class="px-8 py-3 text-lg rounded-full text-center rounded-full mx-3 font-semibold rounded bg-[#a855f7]"
-                        >
+                            >
                             See my work
                         </a>
                     </div>
                 </div>
                 <div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
                     <img
-                        src="profile-img.jpg"
+                        src="head_logo.png"
                         alt=""
-                        class="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 rounded-xl"
-                    />
+                        class="object-contain h-76 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 rounded-xl"
+                        />
                 </div>
             </div>
-
-
-
             <div class="flex flex-col justify-center items-center">
                 <svg
                     width="24"
                     height="14"
                     viewBox="0 0 24 14"
                     fill="none"
-                    class=""
+                    class="animate-bounce"
                     xmlns="http://www.w3.org/2000/svg"
                 >
                     <path

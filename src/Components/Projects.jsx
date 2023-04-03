@@ -14,9 +14,18 @@ function Projects() {
                 <div className='my-10'>
 
                     <div class="flex flex-wrap justify-center">
-                      
-                            <ProjectBox name={"Wallet Boss"} img={"./project-img/walletBoss-img.png"} />
-                            <ProjectBox name={"Wallet Boss"} img={"./project-img/polya2z-img.png"} />
+                    <ProjectBox
+            name={"Wallet Boss"}
+            img={"./project-img/walletBoss-img.png"}
+            github_link={"https://github.com/zbytes2227/thewalletboss"}
+            project_link={"https://zbytes2227.github.io/thewalletboss"}
+            />
+          <ProjectBox
+            name={"PolyA2z"}
+            img={"./project-img/polya2z-img.png"}
+            github_link={"https://github.com/polya2z/polya2z.github.io"}
+            project_link={"https://polya2z.github.io/"}
+          />
                     </div>
                 </div>
                 

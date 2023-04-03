@@ -5,6 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Whole body */
 html {
   scroll-behavior: smooth;
 }
@@ -13,14 +14,54 @@ body {
   background-color: black;
 }
 
+/* typewriter */
 .Typewriter {
   display: inline;
 }
 
+
+/* Fonts */
 .lilita-font {
-  font-family: "Lilita One", cursive;
+  font-family: "Lilita One", 'Arial Narrow Bold';
 }
 
 .alkatra-font {
-  font-family: "Alkatra", cursive;
+  font-family: "Alkatra",'Arial Narrow Bold';
+}
+
+/* REMOVE THE BLUE HIGHLIGHT BOX ON TOUCH */
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body:focus {
+  outline: none !important;
+}
+
+/* Scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #A855f7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8b40d2;
 }
