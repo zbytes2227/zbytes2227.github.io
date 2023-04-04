@@ -7,12 +7,12 @@ function Projects() {
   return (
     <>
       <Navbar />
-      <h1 class="text-3xl text-center lilita-font sm:text-4xl text-[#ffff]">
-        My Creative <span class="text-[#a855f7]">Projects</span>
+      <h1 className="text-3xl text-center lilita-font sm:text-4xl text-[#ffff]">
+        My Creative <span className="text-[#a855f7]">Projects</span>
       </h1>
 
       <div className="my-10">
-        <div class="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center">
           <ProjectBox
             name={"Wallet Boss"}
             img={"./project-img/walletBoss-img.png"}

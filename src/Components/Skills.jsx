@@ -7,8 +7,8 @@ function Skills() {
     return (
         <>
             <div className='my-20'>
-                <h1 class="text-5xl my-5 text-center mx-2 font-bold sm:text-5xl text-[#ffff]">
-                    <span class="text-[#a855f7]">My Skill Bag 💼</span> <Typewriter
+                <h1 className="text-5xl my-5 text-center mx-2 font-bold sm:text-5xl text-[#ffff]">
+                    <span className="text-[#a855f7]">My Skill Bag 💼</span> <Typewriter
                         options={{
                             strings: ["HTML & CSS", "JavaScript", "React-JS", "Node-JS", "Tailwind-css", "Bootsrap"],
                             autoStart: true,
@@ -18,7 +18,7 @@ function Skills() {
                     />
                 </h1>
 
-                <div class="mx-1 md:mx-5 lg:mx-20">
+                <div className="mx-1 md:mx-5 lg:mx-20">
                     <Marquee speed={90} gradientColor={[0, 0, 0]} gradientWidth={60}>
                         <SkillBox name={"HTML"} img={"./skill-img/html.png"} />
                         <SkillBox name={"CSS"} img={"./skill-img/css.png"} />
