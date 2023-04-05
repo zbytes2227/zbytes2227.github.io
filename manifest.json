@@ -1,6 +1,6 @@
 {
     "short_name": "Ujjwal's Portfolio",
-    "name": "Ujjwal's Portfolio",
+    "name": "Ujjwal's Portfolio Zbytess",
     "icons": [
       {
         "src": "favicon.ico",
@@ -8,18 +8,18 @@
         "type": "image/x-icon"
       },
       {
-        "src": "prof_logo.png",
+        "src": "logo192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "prof_logo.png",
+        "src": "logo512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
     "start_url": ".",
     "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
+    "theme_color": "#7aec2b",
+    "background_color": "#aa64ecc7"
   }
