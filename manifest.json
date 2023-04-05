@@ -1,6 +1,6 @@
 {
     "short_name": "Ujjwal's Portfolio",
-    "name": "Ujjwal's Portfolio Zbytess",
+    "name": "Ujjwal's Portfolio ",
     "icons": [
       {
         "src": "favicon.ico",
@@ -20,6 +20,6 @@
     ],
     "start_url": ".",
     "display": "standalone",
-    "theme_color": "#7aec2b",
-    "background_color": "#aa64ecc7"
+    "theme_color": "#ffffff00",
+    "background_color": "#ffffff00"
   }
