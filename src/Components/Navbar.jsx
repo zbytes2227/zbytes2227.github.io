@@ -55,7 +55,7 @@ function Navbar() {
 
       <nav className="flex backdrop-blur-md bg-black/50 py-2 sticky top-0 z-50 justify-between px-5 w-full items-center z-1">
         <div className="h-10 flex items-center my-1">
-          <img className="h-12" src="./prof_logo.png" alt="logo" />
+          <img className="h-12" src="./img/prof_logo.png" alt="logo" />
           <h1 className="text-2xl px-2 alkatra-font sm:text-3xl text-[#ffff]">
             ZBYTES
           </h1>
