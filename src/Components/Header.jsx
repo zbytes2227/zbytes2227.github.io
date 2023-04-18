@@ -25,7 +25,7 @@ function Header() {
                             <h1 className="text-3xl lilita-font sm:text-4xl text-[#ffff]"> <span className="text-[#a855f7]">I'm a </span>
                                 <Typewriter
                                     options={{
-                                        strings: ["Web Developer", "Freelancer", ""],
+                                        strings: ["Web Developer", "Freelancer", "Student"],
                                         autoStart: true,
                                         loop: true,
                                         cursor: "_"
