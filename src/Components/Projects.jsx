@@ -13,6 +13,18 @@ function Projects() {
         <div className="my-10">
           <div className="flex flex-wrap justify-center">
             <ProjectBox
+              name={"Stickers Vibe"}
+              img={"./project-img/stickers-vibe-img.png"}
+              github_link={"https://github.com/zbytes2227/stickers-vibe"}
+              project_link={"https://stickers-vibe.vercel.app/"}
+            />
+            <ProjectBox
+              name={"Task Mate"}
+              img={"./project-img/task-mate-img.png"}
+              github_link={"https://github.com/zbytes2227/task-mate"}
+              project_link={"https://task-mate-zbytes.vercel.app/"}
+            />
+            <ProjectBox
               name={"Wallet Boss"}
               img={"./project-img/walletBoss-img.png"}
               github_link={"https://github.com/zbytes2227/thewalletboss"}
@@ -33,7 +45,6 @@ function Projects() {
             />
           </div>
         </div>
-
 
         <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-center">
           <a
